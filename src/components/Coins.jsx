@@ -27,7 +27,7 @@ function Coins({coins}) {
                 </tr>
             </thead>
             <tbody className='dark:text-white'>
-                {coins.filter((value)=>{
+                {coins.filter((value) => {
                     if(searchText === ""){
                         return value
                     }else if(value.name.toLowerCase().includes(searchText.toLowerCase())){

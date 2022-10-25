@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className='rounded-div flex justify-between items-center h-20 font-semibold'>
         <Link to="/">
-            <h1 className='text-2xl'>Coinbase</h1>
+            <h1 className='text-2xl'>Crypto Watchlist</h1>
         </Link>
         <div className='md:block hidden'>
             <Switcher/>
